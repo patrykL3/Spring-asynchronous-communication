@@ -9,10 +9,10 @@ import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-public class AsynchronousCommunicationApplication {
+public class PublisherAsynchronousCommunicationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AsynchronousCommunicationApplication.class, args);
+		SpringApplication.run(PublisherAsynchronousCommunicationApplication.class, args);
 	}
 
 	@Bean
